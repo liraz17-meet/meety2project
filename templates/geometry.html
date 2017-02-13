@@ -2,11 +2,22 @@
 <html>
 <head>
 <title>Liraz The Queen</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 <h1> Geometry </h1>
-<br>
-<br>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      </button>
+      <a class="navbar-brand" href="{{url_for('homepage')}}">Homepage</a>
+      <a class="navbar-brand" href="{{url_for('upload')}}">Upload</a>
+      
+    </div>
+</nav>
 <div>
 <img src="http://www.onlinemathlearning.com/image-files/vector-geometry4.jpg" alt="geometry" style="width:500px;height:300px;">
 <br>
