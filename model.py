@@ -35,12 +35,6 @@ class Users(Base):
 	email = Column(string) 
 	answerscount = Column(string) 
 
-class Upload(Base):
-	__tablename__ = 'upload'
-	id = Column(integer, primary_key=True)
-	image = Column(string)
-	description = Column(string) 
-	category = Column(string) 
 
 
 Liraz = User(id = 2. name = Liraz Shahar, password = pass, email = )
